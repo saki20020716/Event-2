@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Manup Template">
+    <meta name="keywords" content="Manup, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event Management</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+<link href="img/event.png" rel="icon">
+
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+ <header class="header-section header-normal">
+        <div class="container">
+        <div class="logo">
+                <a href="./schedule.html">
+                  <H2>EVENT</H2> 
+                </a>
+            </div>
+            <div class="nav-menu">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./schedule.html">Schedule</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+<style>
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.mainmenu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.mainmenu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+    .mainmenu {
+        display: none;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+
+    .mainmenu ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .mainmenu.active {
+        display: block;
+    }
+}
+</style>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section set-bg" data-setbg="img/1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-text">
+                        <center><h2>“Dance Vibes 2025”</h2></center>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+
+    <!-- Home About Section Begin -->
+    <section class="home-about-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="ha-pic">
+                        <img src="img/gg.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ha-text">
+                        <h2>Dance About Conference</h2>
+                        <p>Dance is a universal language — a powerful form of expression that transcends words, blending tradition, creativity, and emotion. The Dance Conference brings together dancers, choreographers, educators, and enthusiasts from across the globe to celebrate the art of movement.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home About Section End -->
+
+    <!-- Team Member Section Begin -->
+    <section class="team-member-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Type Of Dances</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="member-item set-bg" data-setbg="img/8.jpg">
+            <div class="mi-text">
+                <h5>classical dance</h5>
+               
+            </div>
+        </div>
+        <div class="member-item set-bg" data-setbg="img/5.jpg">
+            <div class="mi-text">
+                <h5>Folk dance</h5>
+               
+            </div>
+        </div>
+        <div class="member-item set-bg" data-setbg="img/6.jpg">
+            <div class="mi-text">
+                <h5>Western dance</h5>
+               
+            </div>
+        </div>
+        <div class="member-item set-bg" data-setbg="img/7.jpg">
+            <div class="mi-text">
+                <h5>Freestyle dance</h5>
+              
+            </div>
+        </div>
+        </section>
+        <style>
+            /* Team Member Section Style */
+.team-member-section {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #666;
+}
+
+.member-item {
+    position: relative;
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px;
+    transition: transform 0.3s ease;
+}
+
+.member-item:hover {
+    transform: translateY(-10px);
+}
+
+.mi-social {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.mi-social-inner {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.mi-social-inner a {
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.mi-social-inner a:hover {
+    color: #ffd700;
+}
+
+.mi-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.mi-text h5 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mi-text span {
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* Responsive Grid */
+@media (min-width: 768px) {
+    .team-member-section .member-item {
+        width: calc(50% - 30px);
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .team-member-section .member-item {
+        width: calc(25% - 30px);
+    }
+}
+
+        </style>
+    <!-- Team Member Section End -->
+
+
+    <!-- Pricing Section Begin -->
+   <section id="pricing" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Our Pricing</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+            <div class="price-block-wrapper wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lni-write"></i>
+              </div>
+              <div class="colmun-title">
+                <h5>Basic Pass</h5>
+              </div>
+              <div class="price">
+                <h2>Rs.1000</h2>
+                <p>452 Tickets Available</p>
+              </div>
+              <div class="pricing-list">
+                <ul>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Entrance</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Lunch on all days</span></li>
+                   </ul>
+              </div>
+              <a href="#" class="btn btn-common">Buy Ticket</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+            <div class="price-block-wrapper wow fadeInUp" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-layers"></i>
+              </div>
+              <div class="colmun-title">
+                <h5>Standard Pass</h5>
+              </div>
+              <div class="price">
+                <h2>Rs.3000</h2>
+                <p>452 Tickets Available</p>
+              </div>
+              <div class="pricing-list">
+                <ul>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Entrance</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Lunch on all days</span></li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-common">Buy Ticket</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xa-12 mb-3">
+            <div class="price-block-wrapper wow fadeInRight" data-wow-delay="0.4s">
+              <div class="icon">
+                <i class="lni-leaf"></i>
+              </div>
+              <div class="colmun-title">
+                <h5>Premium Pass</h5>
+              </div>
+              <div class="price">
+                <h2>Rs.5000</h2>
+                <p>452 Tickets Available</p>
+              </div>
+              <div class="pricing-list">
+                <ul>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Entrance</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Coffee Break</span></li>
+                  <li><i class="lni-close"></i><span class="text">Lunch on all days</span></li>
+                  <li><i class="lni-check-mark-circle"></i><span class="text">Access to all areas</span></li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-common">Buy Ticket</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+        /* General Section Styling */
+.section-padding {
+  padding: 60px 0;
+}
+
+.section-title-header {
+  margin-bottom: 40px;
+}
+
+.section-title-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-title-header p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Pricing Box */
+.price-block-wrapper {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  position: relative;
+}
+
+.price-block-wrapper:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.price-block-wrapper .icon {
+  font-size: 40px;
+  color: #ff5e57;
+  margin-bottom: 15px;
+}
+
+.colmun-title h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.price h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+.price p {
+  font-size: 14px;
+  color: #666;
+}
+
+.pricing-list {
+  margin: 20px 0;
+}
+
+.pricing-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pricing-list ul li {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-list ul li i {
+  color: #2ecc71;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.pricing-list ul li i.lni-close {
+  color: #e74c3c;
+}
+
+/* Button Styling */
+.btn-common {
+  background-color: #ff5e57;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-common:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Responsive Fixes */
+@media (max-width: 767px) {
+  .section-title-header h1 {
+    font-size: 28px;
+  }
+
+  .price h2 {
+    font-size: 28px;
+  }
+
+  .price-block-wrapper {
+    margin-bottom: 20px;
+  }
+}
+
+    </style>
+    <!-- Pricing Section End -->
+
+   
+
+   
+
+    <!-- Contact Section Begin -->
+    <section class="contact-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h2>Location</h2>
+                        <p>Get directions to our event center</p>
+                    </div>
+                    <div class="cs-text">
+                        <div class="ct-address">
+                            <span>Address:</span>
+                            <p>Vannankerny North <br/>Pallai</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <span>Phone:</span>
+                                (+94) 0774586954
+                            </li>
+                            <li>
+                                <span>Email:</span>
+                                info.colorlib@gmail.com
+                            </li>
+                        </ul>
+                        <div class="ct-links">
+                            <span>Website:</span>
+                            <p>https://conference.colorlib.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cs-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52901.38789495531!2d-118.19465514866786!3d34.03523211493029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cf71ad83ff9f%3A0x518b28657f4543b7!2sEast%20Los%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1579763856144!5m2!1sen!2sbd"
+                            height="400" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+   <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            
+          
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-text">
+                       
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="schedule.html">Schedule</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="copyright-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script>   Event. All rights reserved.Design <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">WEBbuilders</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <div class="ft-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-whatsapp"></i></a>
+                          
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
